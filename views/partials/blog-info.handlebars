@@ -1,0 +1,20 @@
+<article class="blog">
+  <div class="blog-post">
+    <div class="blog-header header">
+      <div class="blog-title">
+        <a href="/blog/{{id}}">{{title}}</a>
+      </div>
+      <div class="blog-created">
+        <p>
+          Posted by
+          <b>{{user.username}} </b>
+          on
+          <b>{{formatDate created_at}}</b>
+        </p>
+      </div>
+    </div>
+    <div class="blog-text">
+      <p>{{content}}</p>
+    </div>
+  </div>
+</article>
