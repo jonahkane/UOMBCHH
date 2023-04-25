@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  min-height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+  
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+body {
+  height: 100%;
+}
+
+.header {
+  background-color: #231010;
+  
+}
+
+.blog-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.blog-post {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  background-color:#d9ead3;
+  flex: 1;
+}
+ul {
+  list-style-type: none;
+}
+.blog {
+  margin: 2%;
+  border: 1px solid black;
+}
+.page-title {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid lime;
+  background-color: 231010;
+}
+.title {
+  background-color: #d9ead3;
+  margin: 1%;
+  padding: 1%;
+  border-style: double;
+}
+.entry-field {
+  width: 100%;
+}
+
+a {
+  color: lime;
+}
+
+a:hover {
+  color: hotpink
+}
+
+.btn {
+  width: 25%;
+  border: 3px solid white;
+  padding: 10px;
+  margin: auto;
+  background-color: blue;
+  color: white;
+}
+
+.back-to-dashboard {
+  color: blue;
+}
+
+ul {
+  padding-left: 0;
+}
+
+dashboard-section {
+  margin: 2%;
+}
+
+.new-blog {
+    padding: 10px;
+    margin: 2%;
+}
+.new-blog-form {
+    border: 3px solid black;
+margin: 2%;
+}
+.button-div {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin: 30px;
+}
+.blog-header {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.blog-text {
+    padding: 10px;
+}
+
+.comment {
+    padding: 1%;
+    margin: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 1px solid black;
+    color: gray;
+}
+.blog-created {
+    color: gray;
+}
+
+.blog-dashboard {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.edit-blog {
+    color: black;
+
+}
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+.edit-blog {
+    margin: 2%;
+}
+.edit-blog-form {
+    margin: 2%;
+    border: 3px solid black;
+}
+.new-blog-entry {
+    margin: 2%;
+}
+.login-section {
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.login-header {
+padding: 10px;
+}
+
+.login-header h1 {
+    color: #d9ead3;
+}
+.form-section {
+justify-content: center;
+}
+.signup-instead {
+    color: black;
+}
+.signup-section {
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.signup-header {
+padding: 10px;
+}
+
+.signup-header h1 {
+    color: #d9ead3;
+}
+.form-section {
+justify-content: center;
+}
+.login-instead {
+    color: black;
+}
+.comment-btn-div{
+    display: flex;
+    margin: 2%;
+}
+.comment-entry-form{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid black;
+    padding: 10px;
+    margin: 2%;
+}
